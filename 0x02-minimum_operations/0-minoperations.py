@@ -7,7 +7,8 @@ to get exactly `n` H characters using Copy All and Paste operations.
 
 def minOperations(n: int) -> int:
     """
-    Determines the minimum number of operations needed to achieve exactly n 'H' characters.
+    Determines the minimum number of operations needed to achieve
+    exactly n 'H' characters.
 
     Operations allowed:
     1. Copy All: Copy all characters currently in the buffer.
@@ -38,4 +39,3 @@ def minOperations(n: int) -> int:
             current_length += buffer
 
     return operations if current_length == n else 0
-
